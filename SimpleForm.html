@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is my Simple Form Using HTML & CSS">
+    <title>Simple Form</title>
+    
+    <style>
+        body{ background:#FFEBCD; }
+        
+        fieldset
+        {
+            background: #FFF8DC;
+            border:8px solid #FFFAF0;
+            padding:15px;
+            margin-bottom:20px;
+        }
+        
+        legend
+        {
+            background: #E9967A;
+            border: 2px solid #FFEBCD ;
+            padding: 3px;
+        }
+        
+        label,select{ display: block}
+        
+        input[type="text"],input[type="password"]]
+        {
+            margin-bottom:5px;
+            padding:5px;
+            display: block
+        }
+        
+        label{margin-bottom:5px}
+        
+        hr{border:2px solid #FFEBCD }
+        
+        textarea
+        {
+            padding:10px;
+            width:350px;
+            height:550;
+            margin-bottom: 10px;
+            display: block;
+        }
+        
+    </style>
+    
+</head>
+
+<body>
+    <form>
+        <fieldset name="Register">
+            <legend>Personal Information</legend>
+            <label>Username</label>
+            <input type="text" name="userName" placeholder="username">
+            <label>Password</label>
+            <input type="password" name="PassWord" placeholder="password">
+            <label>Email</label>
+            <input type="text" name="email" placeholder="Email">
+            <label>Gender</label>
+            <select>
+                <option>male</option>
+                <option>female</option>
+            </select> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Choose your Favourite</legend>
+                <label>Favourite Texteditor :</label>
+                    <input type="radio" name="texteditor">Notepad++<br>
+                    <input type="radio" name="texteditor">Komodo<br>
+                    <input type="radio" name="texteditor">Brackets
+                <hr>
+                <label>Favourite Programming Language : </label>
+                    <input type="radio" name="ProgLang">C++<br>
+                    <input type="radio" name="ProgLang">Java<br>
+                    <input type="radio" name="ProgLang">C#
+                <hr>
+                <label>Favourite Browser : </label>
+                    <input type="checkbox">Chrome<br>
+                    <input type="checkbox">Firefox<br>
+                    <input type="checkbox">Safari<br>   
+                    <input type="checkbox">Opera
+        </fieldset>
+
+        <fieldset>
+            <legend>Your Message</legend>
+                <textarea></textarea>
+            <input type="reset" name="reset" value="Reset Default">
+            <input type="submit" name="login" value="Send your data">
+        </fieldset>
+    </form>    
+    
+</body>    
+    
+</html>
