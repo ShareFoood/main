@@ -1,0 +1,18 @@
+"As a user I wanna Organization determine Expire time of Food"
+
+That means when I am as an organization filling
+the denoting form ,There wiil be a field to determine
+the expire time of food.
+
+Because:
+--------
+That will help to determine which charity will be able
+to benefit from the food , and the trip that food will
+take from the organization to the charity will not
+destory the food or reduce its quality.
+
+Example:
+--------
+Food with expiry time about two hours ,needs a nearest 
+charity that the road to it is less than two hour
+than one that is far.
